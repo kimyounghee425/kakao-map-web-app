@@ -1,0 +1,31 @@
+body {
+    font-family: "Pretendard", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    user-select: none;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+/* 1280px 기준으로 설정: 1rem = 10px */
+html {
+    font-size: 10px;
+    /* 1rem = 10px */
+}
+
+@media (min-width: 1px) and (max-width: 500px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 19200px) {
+    html {
+        font-size: 11px;
+    }
+}
