@@ -50,9 +50,6 @@ region_type 이 S 는 시,도 , B 면 시군구, H 면 행정동
 즐겨찾기 마커는 매번 전체 clear 후 재렌더링 (단순성 우선)
 - 향후 개선 여지: marker key 기반 diff 적용, 캐싱 최적화 가능
 
-WebView 통신은 오직 1가지 타입(getLocation) 메시지만 처리
-- 확장성 고려해 메시지 라우터 함수 분리 구조로 개선 가능
-
 geocoder 관련 연산은 전부 client-side에서 수행
 - 과도한 요청 시 rate limit 가능성 → debounce 처리 고려 가능
 
